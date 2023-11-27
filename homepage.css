@@ -4,6 +4,8 @@
     background-color: #b0c6e0;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -36,3 +38,19 @@
     background-color: #333;
     color: #f8f8f8;
 }
+/* for banner */
+.banner {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .banner1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .banner2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }

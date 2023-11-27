@@ -1,0 +1,38 @@
+/* css for navbar and logo */
+.navbar {
+    top: 0;
+    background-color: #b0c6e0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.links li {
+    margin-right: 10px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #272323;
+    border-radius: 10px;
+}
+
+.links li a:hover {
+    background-color: #333;
+    color: #f8f8f8;
+}

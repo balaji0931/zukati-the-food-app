@@ -1,11 +1,13 @@
 /* css for navbar and logo */
 .navbar {
+    left: 0;
     top: 0;
     background-color: #b0c6e0;
     display: flex;
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    z-index: 999; /* Add a higher z-index value */
 }
 
 .logo {
@@ -38,19 +40,15 @@
     background-color: #333;
     color: #f8f8f8;
 }
-/* for banner */
-.banner {
+
+.banner1 {
     position: relative;
-    top: 0;
-    left: 0;
-  }
-  .banner1 {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .banner2 {
+}
+.banner2 {
+    height:100px;
+    width: auto;
     position: absolute;
-    top: 0;
-    left: 0;
-  }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

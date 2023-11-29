@@ -1,7 +1,7 @@
 .navbar {
     left: 0;
     top: 0;
-    background-color: #b0c6e0;
+    background-color: #e09e81;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -56,4 +56,121 @@
     float: left;
     width: 33.33%;
     height: auto;
+}
+.getapp{
+    background-color: rgb(177, 225, 249);
+    padding-top: 5%;
+    float:left;
+    width:50%;
+    height: 450px;;
+}
+.getapp h1{
+  padding-top: 50px;
+}
+.getapp .phone{
+  padding-left:40%;
+    width:60%;
+    height:auto;
+}
+.downloadlink1 {
+  height: 20px;
+  width: auto;
+  margin: 10px;
+  border: 1px solid #272323;
+  border-color: rgb(10, 10, 10);
+  border-radius: 5px;
+}
+.downloadicons img{
+  padding: 20px;
+  height:40px;
+  width:auto;
+}
+.spec {
+  background: #2b1e16;
+  padding:0 20px;
+}
+
+.specs {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  max-width: 1200px;
+  min-width: 1200px;
+  margin:0 auto;
+}
+
+.specs, .specsimg {
+  position:relative;
+}
+
+.specsimg {
+  color: #fff;
+  text-align:center;
+}
+
+.specsimg3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top:0;
+}
+
+.specsimg4 {
+  font-size: 15px;
+  width: 260px;
+  margin-top: 10px;
+  color: #926b59;
+  line-height:1.3;
+}
+.blog {
+  background:#8bb1ef;
+}
+
+.blogs {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  max-width: 1200px;
+  min-width: 1200px;
+  margin:0 auto;
+}
+
+.blogs, .blogsimg {
+  position:relative;
+}
+
+.blogsimg {
+  color: #fff;
+  text-align:center;
+}
+.blogsimg2 {
+  padding:20px;
+  height: 160px;
+}
+.blogsimg3 {
+  color: black;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.social-media img {
+  width: 40px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.contact {
+  background-color: rgb(109, 213, 213);
+  text-align: center;
+  padding: 20px;
+}
+.contact h1 {
+  font-weight: bold;
+  font-size: 40px;
 }

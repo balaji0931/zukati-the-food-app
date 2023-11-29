@@ -1,22 +1,111 @@
+<!-- FILEPATH: /Applications/Programming/GitHub/zukati/cart.html -->
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
 	<meta charset="UTF-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<link rel="stylesheet" href="homepage.css"> 
+	<link rel="stylesheet" href="homepage.css">
+	<link rel="stylesheet" href="cart.css">
+	 
 	<title>Cart</title>
 </head> 
 <body> 
 	<nav class="navbar">
 		<img src="images/cover.png" alt="logo" class="logo">
 		<ul class="links">
-          <li class="linked"><a href="index.html">Home &#127968;</a></li>  
-		  <li class="linked"><a href="aboutus.html">About Us &#128172;</a></li>
-		  <li class="linked"><a href="contact.html">Contact &#9742;</a></li>
+		  <li class="linked"><a href="index.html">Home &#127968;</a></li>
 		  <li class="linked"><a href="login.html">Login &#128274;</a></li>
 		  <li class="linked"><a href="signup.html">Sign Up &#128100;</a></li>
 		  <li class="linked"><a href="orderfood.html">Order Food &#127839;</a></li>
 		</ul>
-	</nav>		
+	</nav>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="cart-items">
+		<div class="item">
+			<img src="images/biryani1.webp" alt="Food 1">
+			<span class="price">Biryani</span>
+			<br>
+			<br>
+			<span class="price">&#8377;23</span>
+			<span class="count"><input type="number" placeholder="no.of items"></span>
+		</div>
+		<hr>
+		<div class="item">
+			<img src="images/Burger.jpeg" alt="Food 2">
+
+			<span class="price">Burger</span>
+			<br>
+			<br>
+			<span class="price">&#8377;15</span>
+			<span class="count"><input type="number" placeholder="no.of items"></span>
+		</div>
+		<hr>
+		<div class="item">
+			<img src="images/dosa.jpeg" alt="Food 3">
+
+			<span class="price">Dosa</span>
+			<br>
+			<br>
+			<span class="price">&#8377;12</span>
+			<span class="count"><input type="number" placeholder="no.of items"></span>
+		</div>
+		<hr>
+		<div class="item">
+			<img src="images/mutton.jpeg" alt="Food 4">
+
+			<span class="price">Mutton Curry</span>
+			<br>
+			<br>
+			<span class="price">&#8377;8</span>
+			<span class="count"><input type="number" placeholder="no.of items"></span>
+		</div>
+		<hr>
+		<div class="item">
+			<img src="images/paneer.jpeg" alt="Food 5">
+
+			<span class="price">Punjabi Paneer</span>
+			<br>
+			<br>
+			<span class="price">&#8377;20</span>
+			<span  class="count"><input type="number" placeholder="no.of items"></span>
+		</div>
+		<hr>
+	</div>
+	<hr>
+
+	<div class="checkout-section">
+		<h1 style=text-align:center;>Checkout</h1>
+		<div class="total-price">
+			<span>Total Price: &#8377;620</span>
+		</div>
+		<hr>
+		<div class="gst">
+			<span>GST: &#8377;50</span>
+		</div>
+		<hr>
+		<div class="shipping-charges">
+			<span>Shipping Charges: &#8377;80</span>
+		</div>
+		<hr>
+		<button class="checkout-button">Checkout</button>
+	</div>
+	<hr>
+
+	<footer class="footer">
+		<div class="copyright">
+		&copy; 2023 ZUKATI
+		</div>
+		<div class="social-media">
+			<a href="facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+			<a href="pintrest.com" target="_blank"><img src="images/pintrest.png" alt="Twitter"></a>
+			<a href="instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+		</div>
+		<hr>
+	</footer>
+</body>
 </html>
 
